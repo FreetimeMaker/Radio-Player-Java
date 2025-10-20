@@ -101,6 +101,60 @@
                     android:textAlignment="center" />
 
             </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="55dp"
+                    android:layout_height="55dp"
+                    android:src="@drawable/srf3_logo" />
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="SRF 3"
+                    android:textSize="18sp" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/SRF3PlayBTN"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="Play SRF 3"
+                    android:textAlignment="center" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="55dp"
+                    android:layout_height="55dp"
+                    android:src="@drawable/srf1_logo" />
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="SRF 1"
+                    android:textSize="18sp" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/SRF1PlayBTN"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="Play SRF 1"
+                    android:textAlignment="center" />
+
+            </LinearLayout>
         </LinearLayout>
     </FrameLayout>
 
