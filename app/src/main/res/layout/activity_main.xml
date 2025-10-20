@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/white"
     tools:context=".MainActivity">
 
     <!-- This FrameLayout insets its children based on system windows using
@@ -43,6 +44,33 @@
                     android:layout_width="150dp"
                     android:layout_height="wrap_content"
                     android:text="Play Sunshine Radio"
+                    android:textAlignment="center" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="55dp"
+                    android:layout_height="55dp"
+                    android:src="@drawable/argovia_logo" />
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Radio Argovia"
+                    android:textSize="18sp" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/ArgPlayBTN"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="Play Radio Argovia"
                     android:textAlignment="center" />
 
             </LinearLayout>
