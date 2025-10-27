@@ -45,13 +45,13 @@
                     android:layout_height="wrap_content"
                     android:text="Play Sunshine Radio"
                     android:textAlignment="center" />
-
             </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
+                android:layout_marginTop="16dp"
                 android:orientation="horizontal">
 
                 <ImageView
@@ -72,13 +72,13 @@
                     android:layout_height="wrap_content"
                     android:text="Play Radio Argovia"
                     android:textAlignment="center" />
-
             </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
+                android:layout_marginTop="16dp"
                 android:orientation="horizontal">
 
                 <ImageView
@@ -99,13 +99,13 @@
                     android:layout_height="wrap_content"
                     android:text="Play Radio Pilatus"
                     android:textAlignment="center" />
-
             </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
+                android:layout_marginTop="16dp"
                 android:orientation="horizontal">
 
                 <ImageView
@@ -126,13 +126,13 @@
                     android:layout_height="wrap_content"
                     android:text="Play SRF 3"
                     android:textAlignment="center" />
-
             </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
+                android:layout_marginTop="16dp"
                 android:orientation="horizontal">
 
                 <ImageView
@@ -153,7 +153,6 @@
                     android:layout_height="wrap_content"
                     android:text="Play SRF 1"
                     android:textAlignment="center" />
-
             </LinearLayout>
         </LinearLayout>
     </FrameLayout>
